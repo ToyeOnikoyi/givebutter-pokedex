@@ -51,3 +51,4 @@ Please take some time to answer the following questions. Your answers should go 
 - Is there anything you would consider doing if we were to go live with this app?
 
 - What was the most challenging aspect of this work for you (if at all)?
+The most challenging aspect in this work was going through the API and understanding where the data was coming from. Like i did in my code i would re work the api to make it easier to fetch for specific information about a pokemon that will result in fewer queries.
