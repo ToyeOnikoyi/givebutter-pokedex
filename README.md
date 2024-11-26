@@ -45,10 +45,31 @@ When you are finished, please upload your completed work to your Github and invi
 ## Follow-up Questions
 
 Please take some time to answer the following questions. Your answers should go directly in this `readme`.
+## **Question**  
+- Given more time, what would you suggest for improving the performance of this app?  
+  ## **Answer**
+  1. Refactoring the api so that we dont have to do multiple query's for the answers
+  2. Implement Pagination or Infinite Scrolling. This will reduce the initial load time if the list goes from 150 to 400 pokemon or more
+  3. Caching data such as using react query or another caching mechinism. This will reduce netowrk requests for pokemon that have already been fetched before
 
-- Given more time, what would you suggest for improving the performance of this app?
+## **Question**  
+- Is there anything you would consider doing if we were to go live with this app?  
+  ## **Answer**
+ 1. **Favorite and Bookmark Pokémon**  
+   - Allow users to mark their favorite Pokémon and save them for quick access.  
+   - Include a dedicated “Favorites” section to view and manage bookmarked Pokémon.
 
-- Is there anything you would consider doing if we were to go live with this app?
 
-- What was the most challenging aspect of this work for you (if at all)?
-The most challenging aspect in this work was going through the API and understanding where the data was coming from. Like i did in my code i would re work the api to make it easier to fetch for specific information about a pokemon that will result in fewer queries.
+ 2. **Battle Simulator**  
+   - Simulate battles between Pokémon, showcasing stats, type matchups, and move effectiveness. I would add sound effects for the pokemon cries here
+   - maybe add an AR integration of 3d models of the pokemon 
+   
+
+ 3. **Pokémon Compare Tool**  
+   - Let users compare two Pokémon side-by-side, displaying their stats, types, and moves.  
+   - Help the users make great decisions for battles.
+
+## **Question**  
+- What was the most challenging aspect of this work for you (if at all)?  
+  ## **Answer** 
+ 1. The most challenging aspect in this work was going through the API and understanding where the data was coming from. Like i did in my code i would re work the api to make it easier to fetch for specific information about a pokemon that will result in fewer queries.
